@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-rb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <p>Você pode acessar o meu <a href="https://gustavoguanabara.github.io" target="_blank" rel="external">repositório público no GitHub</a></p>
+    <!--O target="_blank" é para que, ao clicar no link, se abra uma nova aba, para manter seu site aberto-->
+    <!--rel="external", o atributo rel com o valor external indica que é um link para outro site que não faz parte do seu site-->
+    <p>Você também pode acessar o meu <a href="https://www.youtube.com/channel/UCurXkYI7c0Pdyn2mPp1mH6w">canal gratuito no YouTube</a></p>
+    <h1>Usando links internos</h1>
+    <p>Esta é a primeira página do site. Se você quiser, pode acessar também a minha <a href="pag002.html" rel="next" target="_self">segunda página</a></p>
+    <p>Você também pode acessar a nossa <a href="noticias/pag003.html" rel="next" target="_self">página de notícia</a></p>
+
+    <h1>Links para download</h1>
+    <ul>
+        <li><a href="livro/Alto_B_Corumbatai.pdf" download="Alto_B_Corumbatai.pdf" type="application/pdf">Baixar o livro PDF</a></li><!--application/pdf faz parte de uma lista de arquivos de várias extensões. É encontrado no site https://www.iana.org/assignments/media-types/media-types.xhtml.-->
+        <li><a href="livro/Alto_B_Corumbatai.zip" download="Alto_B_Corumbatai.zip" type="application/zip">Livro compactado em ZIP</a></li>
+    </ul>
+
+</body>
+</html>
